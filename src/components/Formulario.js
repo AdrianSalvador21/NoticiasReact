@@ -11,7 +11,7 @@ class Formulario extends Component{
       categoria: e.target.value
     }, () => {
       // Pasarlo a la pagina principal
-      this.props.consultatNoticias(this.state.categoria);
+      this.props.consultarNoticias(this.state.categoria);
     });
 
   };
